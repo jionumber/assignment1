@@ -15,4 +15,7 @@ Output: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ih<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it is a non palindrome number<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;even numbers of list a are :  [4, 16, 36, 64, 100]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;even numbers of list a are :  [4, 16, 36, 64, 100]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;guess some number between 1 to 9:7<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;your number is too greater<br>
