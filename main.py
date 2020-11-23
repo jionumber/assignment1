@@ -40,9 +40,9 @@ def qns4():
     b = [number for number in a if number % 2 == 0]
     print("even numbers of list a are : ",b)
 qns4()
+def qns5():
     # question 9
     # Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right. (Hint: remember to use the user input lessons from the very
-def qns5():
     import random
     a = random.randint(1, 9)
     x = int(input("guess some number between 1 to 9:"))
