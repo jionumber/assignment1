@@ -14,3 +14,5 @@ Output: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enter any word :hi<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ih<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it is a non palindrome number<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;even numbers of list a are :  [4, 16, 36, 64, 100]

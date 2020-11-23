@@ -24,6 +24,7 @@ qns2()
 
 def qns3():
     # question 6
+    #Ask the user for a string and print out whether this string is a palindrome or not.
     x = str(input("enter any word :"))
     rvs = x[::-1]
     print(rvs)
@@ -32,12 +33,13 @@ def qns3():
     else:
         print("it is a non palindrome number")
 qns3()
-# # question 7# question 7
-#
-# a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-# b = [number for number in a if number % 2 == 0]
-# print(b)
-#
+def qns4():
+    # question 7
+    #Let’s say I give you a list saved in a variable: a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.
+    a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+    b = [number for number in a if number % 2 == 0]
+    print("even numbers of list a are : ",b)
+qns4()
 # # question 9
 # import random
 #
