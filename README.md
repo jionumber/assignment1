@@ -19,3 +19,9 @@ Output: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;guess some number between 1 to 9:7<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;your number is too greater<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enter any number :7849<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it is not a prime number<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = [5, 10, 15, 20, 25]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("first and last terms of the list are : ",a[0], a[-1])<br>

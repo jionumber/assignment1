@@ -54,20 +54,23 @@ def qns5():
     else:
         print("your number is too small")
 qns5()
-# # question 11
-# x = int(input("enter any number :"))
-# for i in range(2, x):
-#     if (x % i == 0):
-#         print("it is not a prime number")
-#         break
-# else:
-#     print("it is a prime number")
-#
-# # question 12
-# a = [5, 10, 15, 20, 25]
-# print(a[0], a[-1])
-#
-# '''
+def qns6():
+    # question 11
+    #Ask the user for a number and determine whether the number is prime or not. (For those who have forgotten, a prime number is a number that has no divisors.). You can (and should!) use your answer to Exercise 4 to help you. Take this opportunity to practice using functions, described below.
+    x = int(input("enter any number :"))
+    for i in range(2, x):
+        if (x % i == 0):
+            print("it is not a prime number")
+            break
+    else:
+        print("it is a prime number")
+qns6()
+def qns7():
+    # question 12
+    #Write a program that takes a list of numbers (for example, a = [5, 10, 15, 20, 25]) and makes a new list of only the first and last elements of the given list. For practice, write this code inside a function.
+    a = [5, 10, 15, 20, 25]
+    print("first and last terms of the list are : ",a[0], a[-1])
+qns7()
 
 
 
