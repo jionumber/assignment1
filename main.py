@@ -21,16 +21,18 @@ def qns2():
     else:
         print("it is an odd number....")
 qns2()
-# # question 6
-# x = str(input("enter any word :"))
-# rvs = x[::-1]
-# print(rvs)
-# if rvs == x:
-#     print("it is a palindrome number")
-# else:
-#     print("it is a non palindrome number")
-#
-# # question 7
+
+def qns3():
+    # question 6
+    x = str(input("enter any word :"))
+    rvs = x[::-1]
+    print(rvs)
+    if rvs == x:
+        print("it is a palindrome number")
+    else:
+        print("it is a non palindrome number")
+qns3()
+# # question 7# question 7
 #
 # a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 # b = [number for number in a if number % 2 == 0]

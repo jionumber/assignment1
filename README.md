@@ -9,5 +9,8 @@ Output: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2104<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter any number :1234<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is an even number.....
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is an even number.....<br>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enter any word :hi<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ih<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it is a non palindrome number<br>
