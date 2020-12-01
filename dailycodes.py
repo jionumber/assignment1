@@ -40,8 +40,8 @@ def my_func3():
            count += 1
 my_func3()
 def my_func4():
-    ques   print 12345 as a triangle shape.
-    or row in range(5):
+    #ques   print 12345 as a triangle shape.
+    for row in range(5):
        for col in range(row+1):
            if(row==0):
                print(1,end="")
