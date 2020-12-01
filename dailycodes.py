@@ -87,3 +87,16 @@ def my_func6():
                 print(" ", end=" ")
         print()
 my_func6()
+def my_func7():
+#ques shape ques no. 3
+    for col in range(5):
+        for row in range(10):
+            if (col == 0) or (col == 1 and row != 4 and row != 5) or (
+                    col == 2 and row != 4 and row != 5 and row != 3 and row != 6) or (
+                    col == 3 and row != 4 and row != 5 and row != 3 and row != 6 and row != 2 and row != 7) or (
+                    col == 4 and row == 0) or (col == 4 and row == 9):
+                print("* ", end="")
+            else:
+                print(" ", end=" ")
+        print()
+my_func7()
