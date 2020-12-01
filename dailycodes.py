@@ -73,3 +73,17 @@ def my_func5():
                 print("*", end="")
         print()
     my_func5()
+def my_func6():
+# question print the following shape.
+# answer :
+    for col in range(5):
+        for row in range(10):
+            if (row == 0) or (row == 1 and col != 0) or (row == 2 and col > 1) or (row == 3 and col > 2) or (
+                    row == 4 and col > 3) or (col == 4) or (col == 3 and row != 4 and row != 5) or (
+                    col == 2 and row != 3 and row != 4 and row != 5 and row != 6) or (col == 1 and row > 7) or (
+                    col == 0 and row == 9):
+                print("* ", end="")
+            else:
+                print(" ", end=" ")
+        print()
+my_func6()
