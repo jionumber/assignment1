@@ -109,6 +109,7 @@ def my_func8():
         print("number is not palindrome..")
 my_func8()
 def my_func9():
+    #removing vowels ques.
     string = input("Enter any string: ")
     if string == 'x':
         exit();
