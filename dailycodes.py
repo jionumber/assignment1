@@ -129,3 +129,8 @@ def my_func10():
     y = len(x)
     print(y)
 my_func10()
+def my_func11():
+    x = input("enter any word :")
+    y = str(x)[::-1]
+    print(y)
+my_func11()
