@@ -100,6 +100,7 @@ def my_func7():
                 print(" ", end=" ")
         print()
 my_func7()
+# palindrome question.
 def my_func8():
     a = input("enter any number :")
     if a == str(a)[::-1]:
