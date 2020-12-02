@@ -100,3 +100,10 @@ def my_func7():
                 print(" ", end=" ")
         print()
 my_func7()
+def my_func8():
+    a = input("enter any number :")
+    if a == str(a)[::-1]:
+        print("number is palindrome..")
+    else:
+        print("number is not palindrome..")
+my_func8()
