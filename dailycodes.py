@@ -135,3 +135,9 @@ def my_func11():
     y = str(x)[::-1]
     print(y)
 my_func11()
+def my_func11():
+#to find ascii value of a given character.
+    x = input("enter any character :")
+    for y in x:
+        print("ascii value of the character is", ord(y))
+my_func11()
