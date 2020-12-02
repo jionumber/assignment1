@@ -123,3 +123,9 @@ def my_func9():
         print("New string after successfully removed all the vowels:");
         print(newstr);
 my_func9()
+def my_func10():
+# wap to count words in a string.
+    x = str(input("enter any sentence :"))
+    y = len(x)
+    print(y)
+my_func10()
