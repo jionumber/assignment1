@@ -150,3 +150,10 @@ def my_func12():
             unique_list.append(x)
     print("unique values are :", unique_list)
 my_func12()
+def my_func13():
+    # question - WAP a string and count the number of words in the string (not aplhabets.)
+    x = str(input("enter any string (NOTE - please dont enter any extra space in between the string):"))
+    y = x.count(" ")
+    z = y + 1
+    print("words in your string = ", z)
+my_func13()
