@@ -164,3 +164,11 @@ def my_func14():
     x.insert(0, 40)
     print(x)
 my_func14()
+def my_func15():
+    #WAP to print 3rd largest and smallest number.
+    my_list = [10, 18, 9, 7, 82, 80]
+    my_list.sort()
+    print(my_list)
+    print("third largest number :", my_list[2])
+    print("third smallest largest :", my_list[-3])
+my_func15()
