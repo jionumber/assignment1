@@ -157,3 +157,10 @@ def my_func13():
     z = y + 1
     print("words in your string = ", z)
 my_func13()
+def my_func14():
+    # QUES - WAP to shift a value forward to each value in a list.
+    x = [10, 20, 30, 40]
+    x.remove(40)
+    x.insert(0, 40)
+    print(x)
+my_func14()
