@@ -141,3 +141,12 @@ def my_func11():
     for y in x:
         print("ascii value of the character is", ord(y))
 my_func11()
+def my_func12():
+    # WAP to display unique and duplicate value of a given list.
+    list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 5, 7, 3]
+    unique_list = []
+    for x in list1:
+        if x not in unique_list:
+            unique_list.append(x)
+    print("unique values are :", unique_list)
+my_func12()
