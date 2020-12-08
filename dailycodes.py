@@ -142,13 +142,18 @@ def my_func11():
         print("ascii value of the character is", ord(y))
 my_func11()
 def my_func12():
+    #not satisfied
     # WAP to display unique and duplicate value of a given list.
     list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 5, 7, 3]
     unique_list = []
+    duplicate = []
     for x in list1:
         if x not in unique_list:
             unique_list.append(x)
+        if x in duplicate:
+            duplicate.append(x)
     print("unique values are :", unique_list)
+    print("duplicate values are :",duplicate)
 my_func12()
 def my_func13():
     # question - WAP a string and count the number of words in the string (not aplhabets.)
