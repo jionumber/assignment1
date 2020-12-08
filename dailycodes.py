@@ -172,3 +172,11 @@ def my_func15():
     print("third largest number :", my_list[2])
     print("third smallest largest :", my_list[-3])
 my_func15()
+def my_func16():
+    # WAP to delete a student name from a dictionary.
+    students = {'rakesh': 92, 'suresh': 95.3, 'geeta': 94, 'meena': 93}
+
+    search = input('enter name to delete :')
+    students.pop(search)
+    print(students)
+my_func16()
