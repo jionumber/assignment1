@@ -142,7 +142,6 @@ def my_func11():
         print("ascii value of the character is", ord(y))
 my_func11()
 def my_func12():
-    #not satisfied
     # WAP to display unique and duplicate value of a given list.
     list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 5, 7, 3]
     unique_list = []
@@ -150,7 +149,8 @@ def my_func12():
     for x in list1:
         if x not in unique_list:
             unique_list.append(x)
-        if x in duplicate:
+        else:
+            unique_list.pop(unique_list.index(x))
             duplicate.append(x)
     print("unique values are :", unique_list)
     print("duplicate values are :",duplicate)
@@ -185,3 +185,10 @@ def my_func16():
     students.pop(search)
     print(students)
 my_func16()
+def my_func17():
+    classx1 = {'name': 'riya', 'age': 7, 'mobile': '9877887889'}
+    print(classx1)
+    print('name of the child -', classx1['name'])
+    print('age of the child -', classx1['age'])
+    print('mobile of the child -', classx1['mobile'])
+my_func17()
