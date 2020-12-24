@@ -192,3 +192,22 @@ def my_func17():
     print('age of the child -', classx1['age'])
     print('mobile of the child -', classx1['mobile'])
 my_func17()
+def myfunc18():
+    x = int(input("enter the number :"))
+
+    def feb(n):
+        a = 0
+        b = 1
+        if x == 1:
+            print(a)
+        else:
+            print(a)
+            print(b)
+            for i in range(2, x):
+                c = a + b
+                a = b
+                b = c
+                print(c)
+
+    feb(x)
+myfunc18()
