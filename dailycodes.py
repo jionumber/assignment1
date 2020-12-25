@@ -220,3 +220,8 @@ def myfunc20():
     for i in range(x):
         print(chr(65 + i))
 myfunc20()
+def myfunc21():
+    x = str(input("enter any character whose ascii code you want to know(NOTE - type one character only):"))
+    y = ord(x)
+    print(y)
+myfunc21()
