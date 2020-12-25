@@ -215,3 +215,8 @@ def myfunc19():
     x = ord('a')
     print(x)
 myfunc19()
+def myfunc20():
+    x = int(input("enter the number of rows :"))
+    for i in range(x):
+        print(chr(65 + i))
+myfunc20()
