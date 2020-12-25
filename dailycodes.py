@@ -211,3 +211,7 @@ def myfunc18():
 
     feb(x)
 myfunc18()
+def myfunc19():
+    x = ord('a')
+    print(x)
+myfunc19()
