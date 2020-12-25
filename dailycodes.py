@@ -225,3 +225,14 @@ def myfunc21():
     y = ord(x)
     print(y)
 myfunc21()
+def myfunc21():
+    # recursion program.
+    x = int(input("enter the 1st number :"))
+    y = int(input("enter the 2nd number :"))
+
+    def add(a, b):
+        c = a + b
+        return c
+
+    z = add(x, y)
+myfunc21()
