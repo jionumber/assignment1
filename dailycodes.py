@@ -236,3 +236,18 @@ def myfunc21():
 
     z = add(x, y)
 myfunc21()
+def myfunc22():
+    # recursion program.
+    import sys
+    sys.setrecursionlimit(2000)
+    print(sys.getrecursionlimit())
+    i = 0
+
+    def any_func():
+        global i
+        i += 1
+        print("hello world", i)
+        any_func()
+
+    any_func()
+myfunc22()
