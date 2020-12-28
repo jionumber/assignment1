@@ -251,3 +251,11 @@ def myfunc22():
 
     any_func()
 myfunc22()
+def myfunc23():
+    # python program for simple interest.
+    p = int(input("enter the principal amount :"))
+    r = int(input("enter the rate of interest :")) / 100
+    t = int(input("enter the time taken :"))
+    si = p * r * t
+    print("simple interest = ", si)
+myfunc23()
