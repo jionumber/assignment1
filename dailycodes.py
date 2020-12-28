@@ -259,3 +259,23 @@ def myfunc23():
     si = p * r * t
     print("simple interest = ", si)
 myfunc23()
+def myfunc24():
+    # program to print prime numbers.
+    sum = 0
+
+    def func():
+        x = int(input("enter the number :"))
+        product = sum + x
+        print(product)
+        for i in range(2, product):
+            if product % i == 0:
+                print("false")
+            elif (x == 2 and x == 1):
+                print("true")
+            else:
+                print("true")
+        print("if all statements are true your number is prime and if any statement is false your number is not prime")
+        func()
+
+    func()
+myfunc24()
